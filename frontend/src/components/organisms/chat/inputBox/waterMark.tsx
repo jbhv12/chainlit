@@ -21,14 +21,6 @@ export default function WaterMark() {
           textDecoration: 'none'
         }}
       >
-        <Typography fontSize="12px" color="text.secondary">
-          Built with
-        </Typography>
-        <img
-          src={src}
-          alt="watermark"
-          style={{ width: 65, filter: 'grayscale(1)', marginLeft: '4px' }}
-        />
       </a>
     </Stack>
   );
